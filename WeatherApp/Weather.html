@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weather Application</title>
+    <link rel="stylesheet" type="text/css" href="css/weather.css" />
+    <script type="text/javascript" src="Js/weather-app.js"></script>
+</head>
+
+<body>
+    <h3 style="text-align:center">
+        Weather Service
+    </h3>
+    <div class="weatherService">
+        <header class="header">
+            <div class="search">
+                <input type="text" placeholder="Enter City Name" id="search-txt" />
+                <a id="search-btn" href="#"><i></i></a>
+            </div>
+        </header>
+        <div class="leftpane">
+            <div class="top">
+                <img class="img" src="" alt="" id="icon">
+            </div>
+            <div class="location"><span id="location">Unknown</span></div>
+        </div>
+        <div class="rightpane">
+            <div class="bottom">
+                <div class="temperature"><span id="temperature">0</span>&deg;</div>
+                <div class="humidity">
+                    <img src="img/humidity.png" height="16px">
+                    <span id="humidity">0</span>%
+                </div>
+                <div class="wind">
+                    <span id="wind">0</span> mph <span id="direction">N</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
